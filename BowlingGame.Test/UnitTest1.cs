@@ -29,7 +29,7 @@ namespace BowlingGame.Test
             foreach (var player in players)
             {
                 Assert.IsTrue(player.launchThrow() != null);
-                Assert.IsTrue(player.score <= 0);
+                Assert.IsTrue(player.score >= 0);
             }
             
             // Assert
