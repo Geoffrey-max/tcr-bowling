@@ -4,7 +4,7 @@ public class Player
 {
     private string name;
 
-    Player(string name)
+    public Player(string name)
     {
         this.name = name;
     }
