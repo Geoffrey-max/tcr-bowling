@@ -12,6 +12,7 @@ namespace BowlingGame.Test
             int scoreFrame = 0;
             int maxThrows = 2;
 
+            var game = new BowlingGame(0);
             
             // Assert
             Assert.IsNotNull(scoreFrame);
