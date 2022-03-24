@@ -8,10 +8,12 @@ namespace BowlingGame
         private int score;
         private int maxThrows;
         private int iterations;
+        public int nbPlayers;
 
-        public BowlingGame(int score)
+        public BowlingGame(int score, int nbPlayers)
         {
             this.score = score;
+            this.nbPlayers = nbPlayers;
         }
 
         public void PlayGame()

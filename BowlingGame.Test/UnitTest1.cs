@@ -18,7 +18,7 @@ namespace BowlingGame.Test
             var game = new BowlingGame(0, nbPlayers);
             
             // Assert
-            Assert.Equals(nbPlayers, game.nbPlayers.length);
+            Assert.Equals(nbPlayers, game.nbPlayers);
         }
     }
 }
