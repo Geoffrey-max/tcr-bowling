@@ -28,7 +28,7 @@ namespace BowlingGame.Test
 
             foreach (var player in players)
             {
-                Assert.IsTrue(player.launchThrow() != null);
+                Assert.IsNotNull(player.launchThrow());
                 Assert.IsTrue(player.score >= 0);
             }
             
