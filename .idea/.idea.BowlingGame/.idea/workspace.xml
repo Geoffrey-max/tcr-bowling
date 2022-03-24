@@ -7,10 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4c29dd6c-9399-44be-9a43-2dd455a22397" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.BowlingGame/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BowlingGame/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BowlingGame.Test/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BowlingGame.Test/UnitTest1.cs" afterDir="false" />
-    </list>
+    <list default="true" id="4c29dd6c-9399-44be-9a43-2dd455a22397" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

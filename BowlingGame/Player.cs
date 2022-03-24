@@ -3,7 +3,7 @@ namespace BowlingGame;
 public class Player
 {
     private string name;
-    private int score;
+    public int score;
 
     public Player(string name)
     {
