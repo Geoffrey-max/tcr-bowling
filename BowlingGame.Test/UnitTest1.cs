@@ -11,11 +11,14 @@ namespace BowlingGame.Test
             // Arrange
             int scoreFrame = 0;
             int maxThrows = 2;
-
-            var game = new BowlingGame(0);
+            int nbPlayers = 3;
+            
+            //Constructor BowlingGame(score, nbPlayers)
+            //nbPlayers : list of Players
+            var game = new BowlingGame(0, nbPlayers);
             
             // Assert
-            Assert.IsNotNull(scoreFrame);
+            Assert.Equals(nbPlayers, game.nbPlayers.length);
         }
     }
 }

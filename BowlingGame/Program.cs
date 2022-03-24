@@ -14,7 +14,7 @@ namespace BowlingGame
             this.score = score;
         }
 
-        public void playGame()
+        public void PlayGame()
         {
             for (int i = 0; i < 10; i++)
             {
