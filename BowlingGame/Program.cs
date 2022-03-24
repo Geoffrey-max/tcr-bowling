@@ -5,22 +5,20 @@ namespace BowlingGame
 {
     public class BowlingGame
     {
-        private int score;
         private int maxThrows;
         private int iterations;
-        public int nbPlayers;
+        public Player[] players;
 
-        public BowlingGame(int score, int nbPlayers)
+        public BowlingGame(Player[] nbPlayers)
         {
-            this.score = score;
-            this.nbPlayers = nbPlayers;
+            this.players = nbPlayers;
         }
 
         public void PlayGame()
         {
-            for (int i = 0; i < 10; i++)
+            foreach (var player in players)
             {
-            
+                
             }
         }
     }

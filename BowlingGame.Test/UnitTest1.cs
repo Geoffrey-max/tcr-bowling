@@ -10,7 +10,6 @@ namespace BowlingGame.Test
         public void TestPlayersCount()
         {
             // Arrange
-            int scoreFrame = 0;
             int maxThrows = 2;
             Player player1 = new Player("Maya Hi");
             Player player2 = new Player("Maya Hou");
@@ -25,7 +24,7 @@ namespace BowlingGame.Test
             
             //Constructor BowlingGame(score, nbPlayers)
             //nbPlayers : list of Players
-            var game = new BowlingGame(0, players);
+            var game = new BowlingGame(players);
             
             // Assert
             Assert.AreEqual(players, game.players);
