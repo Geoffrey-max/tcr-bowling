@@ -15,7 +15,7 @@ namespace BowlingGame.Test
             Player player2 = new Player("Maya Hou");
             Player player3 = new Player("Maya Ha");
             Player player4 = new Player("Maya Ha ha");
-            Player[] players = new Player[3];
+            Player[] players = new Player[4];
             players[0] = player1;
             players[1] = player2;
             players[2] = player3;
@@ -40,7 +40,7 @@ namespace BowlingGame.Test
             Player player2 = new Player("Maya Hou");
             Player player3 = new Player("Maya Ha");
             Player player4 = new Player("Maya Ha ha");
-            Player[] players = new Player[3];
+            Player[] players = new Player[4];
             players[0] = player1;
             players[1] = player2;
             players[2] = player3;

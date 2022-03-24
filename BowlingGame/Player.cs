@@ -10,4 +10,12 @@ public class Player
         this.name = name;
         score = 0;
     }
+
+    public int launchThrow()
+    {
+        Random rnd = new Random();
+        int throwScore = rnd.Next(0, 11);
+        score += throwScore;
+        return throwScore;
+    }
 }
