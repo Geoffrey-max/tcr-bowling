@@ -6,8 +6,15 @@ namespace BowlingGame.Test
     public class UnitTest1
     {
         [TestMethod]
-        public void TestMethod1()
+        public void TestFrame()
         {
+            // Arrange
+            int scoreFrame = 0;
+            int maxThrows = 2;
+
+            
+            // Assert
+            Assert.IsNotNull(scoreFrame);
         }
     }
 }
