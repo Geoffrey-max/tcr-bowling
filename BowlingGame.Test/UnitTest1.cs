@@ -25,9 +25,16 @@ namespace BowlingGame.Test
             //Constructor BowlingGame(score, nbPlayers)
             //nbPlayers : list of Players
             var game = new BowlingGame(players);
+
+            foreach (var player in players)
+            {
+                Assert.IsTrue(player.launchThrow() != null);
+                Assert.IsTrue(player.score <= 0);
+            }
             
             // Assert
-            Assert.AreEqual(players, game.players);
+            Assert.AreEqual(players.Length, game.players.Length);
+            
         }
     }
 }

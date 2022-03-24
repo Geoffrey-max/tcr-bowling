@@ -9,8 +9,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4c29dd6c-9399-44be-9a43-2dd455a22397" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/BowlingGame.Test/UnitTest1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BowlingGame.Test/UnitTest1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BowlingGame/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BowlingGame/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BowlingGame/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BowlingGame/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
